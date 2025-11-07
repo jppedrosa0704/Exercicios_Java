@@ -8,7 +8,7 @@ public class JogoAdivinhacao {
 
         int tentativas = 0;
 
-        int numero = random.nextInt(99) + 1; // número aleatório entre 1 e 5
+        int numero = random.nextInt(99) + 1; // número aleatório entre 1 e 100
         int palpite = 0;
 
         System.out.println("Tente adivinhar o número (entre 1 e 100)!");
