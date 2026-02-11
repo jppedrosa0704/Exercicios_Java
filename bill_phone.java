@@ -11,7 +11,7 @@ public class bill_phone{
 
     double conta = 50.0;
     if (minutos > 100){
-        conta = conta + (minutos - 100) * 2.0;
+        conta =+ (minutos - 100) * 2.0;
     }
 
     System.out.printf("Valor a pagar e = R$ %.2f%n", conta);
